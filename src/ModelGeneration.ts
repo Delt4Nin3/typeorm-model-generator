@@ -74,7 +74,7 @@ function generateModels(
         }
         const resultFilePath = path.resolve(
             entitiesPath,
-            `${casedFileName}.ts`
+            `${casedFileName}.entity.ts`
         );
         const rendered = entityCompliedTemplate(element);
         const withImportStatements = removeUnusedImports(
